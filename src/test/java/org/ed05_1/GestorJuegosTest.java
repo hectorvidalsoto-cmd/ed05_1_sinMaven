@@ -28,7 +28,7 @@ public class GestorJuegosTest {
   }
   @Test
   public void cp4() {
-    gestorJuegos.registrarLoteJuegos(new String[]{"OLD001"}, new int[]{195});
+    gestorJuegos.registrarLoteJuegos(new String[]{"ABC123"}, new int[]{199});
     String[] codigos = {"ABC123", "DEF456","GHI789"};
     int[] unidades = {7,6,5};
     assertEquals(-3, gestorJuegos.registrarLoteJuegos(codigos, unidades));
